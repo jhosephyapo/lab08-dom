@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Películas por ver</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Películas por ver</h1>
+
+  <form id="formulario-pelicula">
+    <label for="titulo-pelicula">Título:</label>
+    <input id="titulo-pelicula" type="text" placeholder="Ej. El viaje de Chihiro" required>
+
+    <label for="director-pelicula">Director:</label>
+    <input id="director-pelicula" type="text" placeholder="Ej. Hayao Miyazaki" required>
+
+    <button id="btn-guardar" type="submit">Agregar</button>
+    <button id="btn-cancelar" type="button" hidden>Cancelar edición</button>
+  </form>
+
+  <ul id="lista-peliculas"></ul>
+</body>
+</html>
